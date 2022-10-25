@@ -50,8 +50,8 @@ def bot():
 
 		
 	except:
-		print('buscando novas mensagens')
-		time.sleep(3)
+		print('buscando novas mensagens...')
+		time.sleep(2)
 
 
 while True:
