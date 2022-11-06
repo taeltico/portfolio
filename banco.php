@@ -13,4 +13,20 @@ echo "meu nome é {$nome} tenho {$idade} e sou {$profissao}";
  echo "Multiplicação    : ","$num1*$num2 = ",$num1*$num2, "<br />";
  echo "Divisão         : ","$num1/$num2 = ",$num1/$num2, "<br />";
  echo "Resto da divisão : ","$num1%$num2 = ",$num1%$num2, "<br />";
+
+$valorDia = 80;
+$Gorjetas = 40;
+$diaria = $valorDia + $Gorjetas;
+
+echo = "segunda-Feira : $diaria";
+
+$Gorjetas = 15;
+$diaria = $valorDia + $Gorjetas;
+
+echo "Terça-Feira: $diaria";
+
+
+
+
+ 
    ?>
