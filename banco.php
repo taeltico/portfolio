@@ -68,9 +68,25 @@
       echo date ("d/m/y");
       echo $data;
 
+//Array//
+      $cursos = array("PHP, JAVA, PYTHON, C, JAVASCRIPT");
 
+      print_r($cursos);
+      print_r($cursos[4]);
+      
+      //App Banco//
 
+      $saldo = 1000;
+      $depositar = 500;
+      $saque = 85;
+      
+      //operacoes//
+      $deposito = $saldo + $depositar;
+      $retirada = $saldo - $saque;
 
+      echo $deposito;
+      echo $retirada;
+      
 
       
    ?>
