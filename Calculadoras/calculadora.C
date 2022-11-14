@@ -20,33 +20,6 @@ int main()
     scanf("%f", &v2);
 
     //printf("%f %c %f", v1, op, v2);//
-
-    // imprimindo resultados//
-
-    switch(op){
-
-        case '+':
-            resultado = v1 + v2;
-
-            break;
-        case '-':
-            resultado = v1 - v2;
-
-            break;
-        case '*':
-            resultado = v1 * v2;
-
-            break;
-        case '/':
-            resultado = v1 / v2;
-            break;
-        default:
-            resultado = ("operador inválido")
-        return 1;
-            
-
-    }
-
     if (op == '+'){
         resultado = v1 + v2;
                 
