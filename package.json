@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "bootstrap": "^5.2.2",
     "vanilla-tilt": "^1.7.3"
   }
 }
