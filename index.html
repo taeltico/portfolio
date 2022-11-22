@@ -21,13 +21,28 @@
         margin-right: auto;
         width: auto;
       }
+      .divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
       </style>
 
 </head>
 <body>    
     <nav class="navbar navbar-dark bg-dark text-center">
         <div class="dropdown">
-        <img src="/imagens do site/ESCAMBO.png" style="height: 40px;">
+        <a href="login.html"><img src="/imagens do site/ESCAMBO.png" style="height: 40px;"></a>
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Menu
             </button>
